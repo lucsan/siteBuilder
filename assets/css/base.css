@@ -1,0 +1,8 @@
+div.banner {
+  border: 1px solid blue;
+  height: 60px;
+  width: 100%;
+}
+div.listings div.listings-item div.details {
+  display: none;
+}

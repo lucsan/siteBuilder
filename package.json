@@ -1,0 +1,15 @@
+{
+  "name": "sitebuilder",
+  "version": "1.0.0",
+  "description": "Static Site Building tool.",
+  "main": "index.js",
+  "scripts": {
+    "build": "node node_modules\\simpstacgene\\engine\\engine.js",
+    "assets": "node node_modules\\simpstacgene\\engine\\copyAssets.js"
+  },
+  "author": "lucsan@zencorp.co.uk",
+  "license": "ISC",
+  "dependencies": {
+    "simpstacgene": "github:lucsan/simpstacgene#master"
+  }
+}
