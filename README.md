@@ -10,6 +10,8 @@ _(so you've decided to build a static website, yay, ✨)_
 
 Clone the pre-constructed build mode from git https://github.com/lucsan/siteBuilder
 
+It is an idea to clone with the name of your new site eg: `git clone git@github.com:lucsan/sitebuilder.git myProject` as this will save you having to rename your project folder at a later point in time🕕.
+
 You should now have the demo site set in 3 folders. Your site components (html files) are organized into __3__ main folders: `templates`, `data`, and `assets`. You should also have a package.json which is used by npm to load the site generator.
 
  _use_ `npm install` to install the generator.
@@ -19,6 +21,7 @@ This will install simpstacgene in the node_modules folder and create a `config.j
 The `package.json` file should already be configured:
 - _use_ `npm run build`,  to build the site files
 - _use_ `npm run assets` to add your assets (css, images, etc) to the web root.
+- _use_ `npm run build-assets` to do both the above with one command.
 
 _(You can also use `node node_modules\\simpstacgene\\engine\\engine.js`, and `node node_modules\\simpstacgene\\engine\\copyAssets.js`)._
 
@@ -101,3 +104,5 @@ You can add the following to the scripts section of package.json and use `npm ru
 "build":  "node node_modules\\simpstacgene\\engine\\engine.js",
 "assets": "node node_modules\\simpstacgene\\engine\\copyAssets.js",
 ```
+### 📝 note
+Site Builder (Simple Static Site Builder), uses SimpStacGene (Simple Static Site Generator), which can be found at https://github.com/lucsan/simpstacgene
