@@ -1,3 +1,7 @@
 div.banner {
   text-align: center
 }
+
+figure.shrew img {
+  width: 80px;
+}
