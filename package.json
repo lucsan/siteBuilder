@@ -11,5 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "simpstacgene": "github:lucsan/simpstacgene#master"
-  }
+  },
+  "repository": {
+  "type": "git",
+  "url": "git://github.com/lucsan/simpstacgene.git"
+}
 }
