@@ -1,4 +1,4 @@
-# 🛠 💎 ✨ Site Builder ✨ 💎
+# 💎 ✨ Site Builder ✨ 💎
 
 💡 Static Site Builder - 💎 - _because your site needs to be SEO slick_.
 
@@ -65,7 +65,7 @@ THe instruction contains | data.aList expects to find the {{ contains }} token i
 
 ##### ✂ snips
 
-Snips is just an organizational folder inside the templates folder, you can add as many folders here as you like to organize your templates to your liking.
+Snips is just an organizational folder inside the templates folder, you can add as many organizational folders to the templates folder as you like to organize things to your liking.
 
 ### 🧺 data
 
